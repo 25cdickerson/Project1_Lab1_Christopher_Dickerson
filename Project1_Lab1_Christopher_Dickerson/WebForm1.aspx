@@ -11,13 +11,13 @@
         <h1>Coding Club Registration Form</h1>
         <div>
             <asp:Label ID="LName" runat="server" Text="Your Name: " />
-            <asp:TextBox ID="TName" runat="server" />
+            <asp:TextBox ID="TName" runat="server" Text ="" />
             <br />
             <asp:Label ID="LEmail" runat="server" Text="Your Email: " />
-            <asp:TextBox ID="TEmail" runat="server" />
+            <asp:TextBox ID="TEmail" runat="server" Text="" />
             <br />
             <asp:Label ID="LPhone" runat="server" Text="Your Phone: " />
-            <asp:TextBox ID="TPhone" runat="server" />
+            <asp:TextBox ID="TPhone" runat="server" Text="" />
             <br />
             <asp:Button ID="BSubmit" runat="server" Text="Submit" />
             <asp:Button ID="BClear" runat="server" Text="Clear" />
