@@ -3,18 +3,46 @@
     Christopher Dickerson
 */
 
+html{
+    background-color: lightblue;
+}
+
 body{
     text-align: center;
     align-content: center;
     align-self: center;
+    background-color: lightblue;
+    height: inherit;
+}
+
+div{
+    height: inherit;
 }
 
 body h1{
     font: bold 50px arial;
+    text-decoration: underline;
 }
 
-body div{
+.Label{
     font: 35px arial;
 }
+
+.Text{
+    font: 20px arial;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 5px;
+}
+
+.Button{
+    font: 25px arial;
+    width: auto;
+    height: auto;
+    border-spacing: 10px;
+    border-top: 20px;
+}
+
+
 
 

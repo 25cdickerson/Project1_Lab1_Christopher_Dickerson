@@ -1,4 +1,7 @@
-﻿using System;
+﻿// C# Code Behind
+// Christopher Dickerson
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,14 +15,14 @@ namespace Project1_Lab1_Christopher_Dickerson
         protected void Page_Load(object sender, EventArgs e)
         {
             BSubmit.Click += new EventHandler(this.sClick);
-            BClear.Click += new EventHandler(this.sClick);
+            BClear.Click += new EventHandler(this.clrClick);
         }
 
         protected void sClick(object sender, EventArgs e)
         {
             LInfo.Visible = true;
-            LInfo.Text = "The Information Entered:\nName: " + TName.Text +
-                "\nEmail: " + TEmail.Text + "\nPhone: " + TPhone.Text;
+            LInfo.Text = "The Information Entered: <br />Name: " + TName.Text +
+                "<br />Email: " + TEmail.Text + "<br />Phone: " + TPhone.Text;
             TName.Text = "";
             TEmail.Text = "";
             TPhone.Text = "";
